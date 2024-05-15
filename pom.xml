@@ -116,6 +116,18 @@
 		</plugins>
 	</build>
 
+      <id>maven-releases</id>
+      <name>Central Repository OSSRH</name>
+      <url>http://13.58.151.225:8081/repository/maven-releases/</url>
+    </repository>
+    <snaphotRepository>
+         <id>maven-snapshots</id>
+         <url>http://13.58.151.225:8081/repository/maven-releases/</url>
+     </snaphotRepository>
+  </distributionManagement>
+
+
+	
 	
 
 </project>
